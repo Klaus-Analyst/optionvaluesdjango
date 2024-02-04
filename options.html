@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hopeless Romantic</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="form-row">
+        <div class="form-group col-lg-12">
+            <!-- these are the cities -->
+            <div class="custom_select">
+                <h5>choose you delivery location</h5>
+                <select id="city" class="form-control select-active w-100">
+                    <option value="NR">Nairobi</option>
+                    <option value="BR">Baringo</option>
+                    <option value="KR">Kirinyaga</option>
+                    <option value="MB">Mombasa</option>
+                    <option value="KI">Kiambu</option>
+                    <option value="KK">Kakamega</option>
+                    <option value="KS">Kisumu</option>
+                    <option value="NK">Nakuru</option>
+                    <option value="NY">Nyandarua</option>
+                    <option value="UA">Uashin Gishu</option>
+
+
+                </select>
+            </div>
+            <br />
+            <!-- these are the towns -->
+            <div class="custom_select">
+                <select id="town" class="form-control select-active w-100">
+
+                    <!-- TOWNS IN NAIROBI CITY -->
+                    <option data-city="NR" value="CBDCITY"> CBD - GPO CITY MARKET </option>
+                    <option data-city="NR" value="KILIMANI"> Kilimani </option>
+                    <option data-city="NR" value="BOMAS">Bomas </option>
+                    <option data-city="NR" value="BURUBURU"> Buruburu </option>
+                    <option data-city="NR" value="DAGORETTI"> Dagoretti </option>
+                    <option data-city="NR" value="EMBAKASI"> Embakasi </option>
+                    <option data-city="NR" value="LUNDA"> Lunda </option>
+                    <option data-city="NR" value="HURUMA"> Huruma </option>
+                    <option data-city="NR" value="KAHAWA"> Kahawa </option>
+                    <option data-city="NR" value="KAREN"> Karen </option>
+
+                    <!-- TOWNS IN BARINGO CITY -->
+                    <option data-city="BR" value="ELDAMARAVINE">Eldama Ravine </option>
+                    <option data-city="BR" value="KARBARNETTOWN">Karbarnet Town </option>
+
+                    <!-- TOWNS IN KIRINYAGA -->
+                    <option data-city="KR" value="KAGIO">Kagio </option>
+                    <option data-city="KR" value="KERUGOYATOWN">Kerugoya Town </option>
+                    <option data-city="KR" value="MWEA">Mwea </option>
+
+                    <!-- TOWNS IN MOMBASA -->
+                    <option data-city="MB" value="LIKONI">Likoni </option>
+                    <option data-city="MB" value="NYALI">Nyali </option>
+                    <option data-city="MB" value="BAMBURI">Bamburi </option>
+
+                    <!-- TOWNS IN KIAMBU -->
+                    <option data-city="KI" value="GATUNDU">Gatundu </option>
+                    <option data-city="KI" value="BANANA">Banana </option>
+                    <option data-city="KI" value="KIKUYU">Kikuyu </option>
+
+                    <!-- TOWNS IN KAKAMEGA -->
+                    <option data-city="KK" value="BUTERE">Butere </option>
+                    <option data-city="KK" value="KAKAMEGATOWN">Kakamega Town </option>
+                    <option data-city="KK" value="MUMIAS">Mumias </option>
+
+                    <!-- TOWNS IN KISUMU -->
+                    <option data-city="KS" value="AHERO">Ahero</option>
+                    <option data-city="KS" value="KISUMUCBD">Kisumu CBD </option>
+                    <option data-city="KS" value="MASENO">Maseno </option>
+
+                    <!-- TOWNS IN NAKURU -->
+                    <option data-city="NK" value="BAHATI">Bahati </option>
+                    <option data-city="NK" value="NAKURUCBD">Nakuru CBD </option>
+                    <option data-city="NK" value="NAIVASHA">Naivasha </option>
+
+                    <!-- TOWNS IN NYANDARUA -->
+                    <option data-city="NY" value="OLKOROU">Ol Korou </option>
+
+                    <!-- TOWNS IN UASHIN GISHU -->
+                    <option data-city="UA" value="BUTERE">Butere </option>
+                    <option data-city="UA" value="KAKAMEGATOWN">Kakamega Town </option>
+                    <option data-city="UA" value="MUMIAS">Mumias </option>
+                </select>
+            </div>
+
+            <div id="delivery_details">
+                <p id="delivery_fee">  </p>
+                <p id="expected_date"> </p>
+            </div>
+
+        </div>
+    </div>
+    <script src="./options.js"> </script>
+
+</body>
+</html>
+
